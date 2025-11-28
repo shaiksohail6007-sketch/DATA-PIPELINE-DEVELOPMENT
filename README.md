@@ -1,16 +1,16 @@
 # DATA-PIPELINE-DEVELOPMENT
 
-*COMPANY:CODTECH IT SOLUTION
+*COMPANY: CODTECH IT SOLUTION
 
-*NAME:SHAIK SOHAIL
+*NAME: SHAIK SOHAIL
 
-*INTERN ID:CT04DR1947
+*INTERN ID: CT04DR1947
 
-*DOMAIN:DATA SCIENCE
+*DOMAIN: DATA SCIENCE
 
-*DURATION:4 WEEKS
+*DURATION: 4 WEEKS
 
-*MENTOR:NEELA SANTHOSH
+*MENTOR: NEELA SANTHOSH
 
 ##The goal of this task is to design and implement an end-to-end ETL (Extract, Transform, Load) data pipeline that can automatically read raw data, clean it, perform necessary transformations, and output processed data ready for analysis or machine learning tasks.
 A data pipeline is an essential component in any data-driven workflow. It ensures that data flows systematically from source to destination while maintaining data quality, accuracy, and reliability. This project demonstrates a foundational yet practical pipeline using Python libraries such as pandas, numpy, and scikit-learn, implemented on the Visual Studio Code (VS Code) development platform.
