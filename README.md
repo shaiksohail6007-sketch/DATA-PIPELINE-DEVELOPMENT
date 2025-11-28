@@ -74,3 +74,7 @@ processed_data.csv
 This can later be fed into ML models or business dashboards.
 Conclusion
 This project successfully demonstrates how to build a complete ETL data pipeline using Python and commonly used data-science tools. The pipeline is modular, reusable, easy to extend, and suitable for real-world applications in machine learning, business intelligence, and enterprise data workflows. It reflects the essential skills required by data engineers and data scientists and showcases the practical ability to handle data end-to-end — from raw input to a high-quality processed output dataset. Additionally, the task provides experience in building reliable preprocessing systems, which is a crucial competency in any modern data-driven organization.
+
+#OUTPUT
+
+<img width="1911" height="1010" alt="Image" src="https://github.com/user-attachments/assets/2aeb30ab-e1e8-45cc-a8de-c2a5cb99bb38" />
