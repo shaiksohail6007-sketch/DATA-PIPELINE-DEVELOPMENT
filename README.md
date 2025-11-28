@@ -72,6 +72,14 @@ Renaming or restructuring columns
 The final cleaned and processed dataset is saved to:
 processed_data.csv
 This can later be fed into ML models or business dashboards.
+
+project structure:
+├── etl_pipeline.py
+├── input_data.csv
+├── processed_data.csv
+├── README.md
+└── venv/
+
 How to Run the Pipeline
 1. Activate virtual environment
 tfenv\Scripts\activate
