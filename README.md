@@ -72,6 +72,16 @@ Renaming or restructuring columns
 The final cleaned and processed dataset is saved to:
 processed_data.csv
 This can later be fed into ML models or business dashboards.
+How to Run the Pipeline
+1. Activate virtual environment
+tfenv\Scripts\activate
+2. Install dependencies
+pip install pandas numpy scikit-learn
+3. Run the pipeline
+python etl_pipeline.py
+4. Output
+A new file will be generated:
+processed_data.csv(its uploaded as an output picture)
 Conclusion
 This project successfully demonstrates how to build a complete ETL data pipeline using Python and commonly used data-science tools. The pipeline is modular, reusable, easy to extend, and suitable for real-world applications in machine learning, business intelligence, and enterprise data workflows. It reflects the essential skills required by data engineers and data scientists and showcases the practical ability to handle data end-to-end — from raw input to a high-quality processed output dataset. Additionally, the task provides experience in building reliable preprocessing systems, which is a crucial competency in any modern data-driven organization.
 
