@@ -1,13 +1,13 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
-# 1️⃣ EXTRACT
+# EXTRACT
 def extract_data(path):
     print("🔹 Extracting data...")
     df = pd.read_csv(path)
     return df
 
-# 2️⃣ TRANSFORM
+# TRANSFORM
 def transform_data(df):
     print("🔹 Cleaning & Transforming data...")
 
@@ -25,13 +25,13 @@ def transform_data(df):
 
     return df
 
-# 3️⃣ LOAD
+#  LOAD
 def load_data(df, output_path):
     print("🔹 Loading final processed file...")
     df.to_csv(output_path, index=False)
     print(f"✅ File saved as: {output_path}")
 
-# 4️⃣ MAIN PIPELINE FUNCTION
+#  MAIN PIPELINE FUNCTION
 def run_pipeline():
     input_file = "input_data.csv"
     output_file = "processed_data.csv"
@@ -44,3 +44,4 @@ def run_pipeline():
 
 # Run the Pipeline
 run_pipeline()
+
